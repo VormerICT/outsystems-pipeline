@@ -1,6 +1,9 @@
 
 variables:
 - group: GSS POC Variables Group
+- name: ApplicationScope
+- name: ApplicationScopeWithTests
+- name: TriggeredBy
 
 steps:
 - task: PowerShell@2
