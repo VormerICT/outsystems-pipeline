@@ -1,4 +1,7 @@
----
+
+variables:
+- group: GSS POC Variables Group
+
 steps:
 - task: PowerShell@2
   inputs:
